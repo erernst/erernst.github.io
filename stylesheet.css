@@ -1,20 +1,40 @@
-a{
+a:link{
 	color: lightgreen;
-	hover:green;
 	text-decoration: none;
 }
+
+a:hover{
+	color: green;
+	text-decoration: none;
+}
+
 div {
-	border:2px solid green;
+	border:3px solid green;
 	margin-left: 5px;
 	margin-top: 5px;
 	margin-bottom: 5px
 }
+
+.button{
+    height:50px;
+    width:120px;
+    border-color:green;
+    border-width:2px;
+    border-style:solid;
+    background:#BCD2EE;
+    border-radius:5px;
+    text-align:center;
+    margin:auto; 
+}
+
 h1 {
 	text-align:center;
 }
+
 h3 {
 	margin-left: 10px;
 }
+
 p {
 	margin-left: 20px;
 }
