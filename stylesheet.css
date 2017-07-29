@@ -1,3 +1,17 @@
+a{
+	color: lightgreen;
+	hover:green;
+	text-decoration: none;
+	
+div {
+	border:2px solid green;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+h1 {
+	text-align:center;
+}
 h3 {
 	margin-left: 10px;
 }
@@ -14,9 +28,3 @@ p:nth-child(3){
 	font-style:italic;
 }
 
-div {
-	border:2px solid green;
-	margin-left: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px
-}
