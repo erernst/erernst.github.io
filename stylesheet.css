@@ -9,21 +9,20 @@ a:hover{
 }
 
 a:visited{
-	color: lightgreen;
+	color: none;
 	text-decoration: none;
 }
 
 #Button {
-    height:35px;
-    width:110px;
+    height:40px;
+    width:120px;
     border-color:green;
     border-width:2px;
     border-style:solid;
-    background:lightgray;
+    background:white;
     border-radius:3px;
     text-align:center;
     margin:2px; 
-    display:inline-block;
 }
 
 div {
