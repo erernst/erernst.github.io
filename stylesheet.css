@@ -1,3 +1,7 @@
+p {
+	margin-left: 5px
+}
+
 p:first-child{
 	font-size:.75em;
 	font-style:bold;
@@ -9,4 +13,5 @@ p:nth-child(3){
 
 div {
 	border:2px solid green;
+	margin-left: 5px
 }
