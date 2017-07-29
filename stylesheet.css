@@ -1,8 +1,8 @@
 h3 {
-	margin-left: 10px
+	margin-left: 10px;
 }
 p {
-	margin-left: 20px
+	margin-left: 20px;
 }
 
 p:first-child{
@@ -16,5 +16,7 @@ p:nth-child(3){
 
 div {
 	border:2px solid green;
-	margin-left: 5px
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px
 }
