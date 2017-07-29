@@ -1,5 +1,8 @@
+h3 {
+	margin-left: 10px
+}
 p {
-	margin-left: 5px
+	margin-left: 20px
 }
 
 p:first-child{
