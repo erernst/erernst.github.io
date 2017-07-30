@@ -23,9 +23,9 @@ a:visited{
     border-radius:3px;
     text-align:center;
     margin:2px; 
-    position:fixed;
+    float:left;
 }
-
+#Button
 div {
 	border:3px solid green;
 	margin-left: 10em;
