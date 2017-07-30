@@ -38,11 +38,12 @@ div {
 h1 {
 	text-align:center;
 	position: fixed;
-	horizontal-align:middle;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 h3 {
-	margin-left: 50em;
+	margin-left: 10px;
 }
 
 p {
