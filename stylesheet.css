@@ -40,6 +40,8 @@ h1 {
 	position: fixed;
 	left: 50%;
 	margin-left: -500px;
+	height: 100px;
+	width:1000px;
 }
 
 h3 {
