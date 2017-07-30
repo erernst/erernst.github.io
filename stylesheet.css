@@ -13,59 +13,7 @@ a:visited{
 	text-decoration: none;
 }
 
-#button1 {
-    height:40px;
-    width:120px;
-    border-color:green;
-    border-width:2px;
-    border-style:solid;
-    background:white;
-    border-radius:3px;
-    text-align:center;
-    margin:3px; 
-    position:fixed;
-}
-
-#button2 {
-    height:40px;
-    width:120px;
-    border-color:green;
-    border-width:2px;
-    border-style:solid;
-    background:white;
-    border-radius:3px;
-    text-align:center;
-    margin:3px; 
-    position:fixed;
-}
-
-#button3 {
-    height:40px;
-    width:120px;
-    border-color:green;
-    border-width:2px;
-    border-style:solid;
-    background:white;
-    border-radius:3px;
-    text-align:center;
-    margin:3px; 
-    position:fixed;
-}
-
-#button4 {
-    height:40px;
-    width:120px;
-    border-color:green;
-    border-width:2px;
-    border-style:solid;
-    background:white;
-    border-radius:3px;
-    text-align:center;
-    margin:3px; 
-    position:fixed;
-}
-
-#button5 {
+#button {
     height:40px;
     width:120px;
     border-color:green;
