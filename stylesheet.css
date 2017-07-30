@@ -23,8 +23,7 @@ a:visited{
     border-radius:3px;
     text-align:center;
     margin:2px; 
-    position:fixed;
-    display:inline;
+    float:left;
     z-index:1;
 }
 
