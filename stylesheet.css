@@ -9,7 +9,7 @@ a:hover{
 }
 
 a:visited{
-	color: none;
+	color: lightgreen;
 	text-decoration: none;
 }
 
@@ -23,6 +23,7 @@ a:visited{
     border-radius:3px;
     text-align:center;
     margin:2px; 
+    position:fixed;
 }
 
 div {
@@ -36,6 +37,7 @@ div {
 
 h1 {
 	text-align:center;
+	position: fixed;
 }
 
 h3 {
