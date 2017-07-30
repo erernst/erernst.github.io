@@ -22,14 +22,10 @@ a:visited{
     background:white;
     border-radius:3px;
     text-align:center;
-    margin-left:15px; 
+    margin:3px; 
     position:fixed;
 }
-.1st {
-	margin-top:10px;
-}
-
-.2nd {
+div:nthchild(2) {
 	margin-top:140px;
 }
 
