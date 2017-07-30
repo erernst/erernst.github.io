@@ -22,8 +22,9 @@ a:visited{
     background:white;
     border-radius:3px;
     text-align:center;
-    margin:2px; 
+    margin-left:0px; 
     position:fixed;
+    margin-top: 60px;
     z-index:1;
 }
 
