@@ -22,11 +22,10 @@ a:visited{
     background:white;
     border-radius:3px;
     text-align:center;
-    margin-left:0px; 
+    margin-left:-2px; 
     position:fixed;
     margin-top: 40px;
     z-index:1;
-    vertical-align:middle;
 }
 
 div {
