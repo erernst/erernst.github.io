@@ -22,11 +22,8 @@ a:visited{
     background:white;
     border-radius:3px;
     text-align:center;
-    margin:2px; 
+    margin:20px; 
     position:fixed;
-}
-#Button:nthchild(2) {
-	margin-top:140px
 }
 
 div {
