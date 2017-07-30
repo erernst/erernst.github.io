@@ -26,7 +26,7 @@ a:visited{
     position:fixed;
 }
 div:nthchild(2) {
-	margin-top:140px;
+	margin-top:140px; 
 }
 
 div {
