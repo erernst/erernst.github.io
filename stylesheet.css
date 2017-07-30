@@ -13,7 +13,7 @@ a:visited{
 	text-decoration: none;
 }
 
-#Button {
+button {
     height:40px;
     width:120px;
     border-color:green;
@@ -22,8 +22,15 @@ a:visited{
     background:white;
     border-radius:3px;
     text-align:center;
-    margin:20px; 
+    margin-left:15px; 
     position:fixed;
+}
+#1st {
+	margin-top:10px;
+}
+
+#2nd {
+	margin-top:140px;
 }
 
 div {
