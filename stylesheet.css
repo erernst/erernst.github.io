@@ -38,8 +38,8 @@ div {
 h1 {
 	text-align:center;
 	position: fixed;
-	margin-left:auto;
-	margin-right:auto;
+	left: 50%;
+	margin-left: -500px;
 }
 
 h3 {
