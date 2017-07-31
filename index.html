@@ -17,17 +17,22 @@
 			</div>
 		</div>  
 		<div ID="First">
-			<h3> switch (INCOMPLETE) <em>vs.</em> if/else </h3>
+			<h3> switch <em>vs.</em> if/else </h3>
 				<p> July 29, 2017</p>
 				<p> This blog post will discuss the differences between 'switch' and 'if/else', and when to use each. </p>
-				<p> if/else statements are a check of boolean statements switch statements can only test based on one integer, value or String</p>
+				<p> 
+					<ul>
+						<li> if/else statements are a check of boolean statements </li>
+						<li> switch statements can test a variable that is either an integer, value or String</li>
+					</ul>	
+				</p>
 				<p> Switch statements can prove themselves useful when your variable is an integer, character or String. If you have a known list of possible options, switch statements can check to see if the input matches any of the options quickly. The example from Exercise 24 takes user input of the month # (so any integer 1-12). It then quickly checks the list to see what its output should be based on the number of the month. The return is then a month name (specific to every number). There is a second switch that tells the computer how many days it should say the month has. This switch is able to cut out some lines of code, as multiple <strong> cases </strong> have the same number of days. </p>
-				<p> 'if/else' statements are most often just a series of boolean checks. They often cascade the more intricate they are. They are also a process. If your initial if proves true then the computer follows its commands and puts out information based on that test running true. If the initial if statement is false, the computer will run the first else check (assuming this isn't just a singular if/else command). If that test is true then the computer then follows the commands on what information it should present. If the first else is false the command continues checking else if commands in this fashion until it comes across a test that is true or falls in the all encompassing bucket at the end. 'else/if' commands are useful in evaluating more auspicious variables where create ranges that variables could fall into. </p>
+				<p> 'if/else' statements are most often just a series of boolean checks. They often cascade the more intricate they are. They are also a process. If your initial if proves true then the computer follows its commands and puts out information based on that test running true. If the initial if statement is false, the computer will run the first else check (assuming this isn't just a singular if/else command). If that test is true then the computer then follows the commands on what information it should present. If the first else is false the command continues checking else if commands in this fashion until it comes across a test that is true or falls in the all encompassing bucket at the end. 'else/if' commands are useful in evaluating more auspicious variables where we create ranges that variables could fall into. </p>
 				<p> Switch and 'if/else' statements are both very useful. However switch can be a cleaner code and faster output when the input variable is going to be predictable and specific. 'if/else' commands are more useful in wrangling up variable inputs that could fall into a broader spectrum, we can apply ranges. 'if/else' worked well in Excercise 19, but would be excessive when trying to code. </p>
 		</div>
 		
 		<div ID="Second">
-			<h3> Equal Equal Equal? (INCOMPLETE)</h3>
+			<h3> Equal Equal Equal?</h3>
 				<p> July 29, 2017</p>
 				<p> This blog post will discuss the differences between '=', '==", and '.equals' and when to use each. </p>
 				<p> To start let us define each of the equals means in the code:
@@ -37,47 +42,46 @@
 						<li> == : used in boolean expressions to test if a double or integer are equal to each other
 						</li>
 						<li> .equals : used in boolean expressions to test if strings are equal to each other
-						<li>
+						</li>
+					</ol>
 				</p>
-				<p> So as you can see they each have their own purpose. = by itself is used throughout code, defining variables, it is not used to test anything. == is used to test whether numbers are equal to each other. .equals is used to test if strings are equal to each other. If you tried to test if a string was == to a word input from a user, it would not compile. .equals has to be used as the tester for strings. </p>
-				<p> Body 2 </p>
-				<p> Conclusion </p>
+				<p> So as you can see they each have their own purpose. = by itself is used throughout code, defining variables. == is used to test whether variables draw from the same source. .equals is used to test if strings are equal to each other. If you tried to test if a string was == to a word input from a user, it would not compile. .equals has to be used as the tester for strings. </p>
 		</div>
 		
 		<div ID="Third">
-			<h3> import java.util.Scanner; (INCOMPLETE </h3>
+			<h3> import java.util.Scanner; </h3>
 				<p> July 29, 2017</p>
 				<p> This blog post will discuss what happens when your code has 'import java.util.Scanner;', and where does its functionality come from. Plus what is the java portion? </p>
 				<p> If we break it down by word:
 					<ol>
 						<li>import : this is used to pull from other classes</li>
-						<li>java: is the highest folder that we are trying to pull the Scanner class from</p>
+						<li>java: is the highest folder that we are trying to pull the Scanner class from</li>
 						<li>util: a folder located within the java folder, short for utilities
 						<li>Scanner: class that is predefined for user input</li>
 					<ol>
-				<p> Body 1 </p>
-				<p> Body 2 </p>
-				<p> Conclusion </p>
+				</p>
+				<p> So in synopsis this line gives the command to pull assets located in the util folder in the java folder (which the first directory to begin the search in). We are ultimately pulling the scanner class. </p>
 		</div>
 		
 		<div ID="Fourth">
-			<h3> void (INCOMPLETE) </h3>
+			<h3> void  </h3>
 				<p> July 29, 2017</p>
 				<p> This blog post will discuss in method declaration what is void? How is this different from a method with a return type?  </p>
 				<p> In order to discuss what void is in method declaration we should first define a method. A method is a chunk of code that can be called on to be executed by name. Essentially a method and can run and perform so bit of code, it can either produce feedback of some sort or it can simply complete a task.  </p>
 				<p> This is where <strong>void</strong> comes in. Void is simply put in place of the word that would define the variable being returned. In the case of void the method will be added, but no data will be brought back. </p>
-				<p> In its place you can put:</p>
-				<p> Conclusion </p> 
+				<p> In place of void you can put a return method: double, integer, or string; said type of return will be produced from the method and could be used after its return.
 		</div>
 		
 		<div ID="Fifth">
-			<h3> parameter <em>vs.</em> argument (INCOMPLETE)</h3>
+			<h3> parameter <em>vs.</em> argument</h3>
 				<p> July 29, 2017</p>
 				<p> This blog post will discuss differences between "paramter" and "argument", in methods, and when to use each. </p>
-				<p> Intro </p>
-				<p> Body 1 </p>
-				<p> Body 2 </p>
-				<p> Conclusion </p>
+				<p> <ul> 
+					<li> argument is the variable's value in a function </li>
+					<li> parameter is a variable as its declared in the function </li>
+				</p>
+				<p> So the parameter is how to find the variable's value to be inserted into a function. Argument is whatever that value ends up actually being.  </p>
+				<p> In exercise 35 line 14 is showDice(r1); r1 would be the parameter. Once we know the value of r1, say its 3, 3 is the actual argument used in the function showDice. </p>
 		</div>
 	</body>
 </html>
